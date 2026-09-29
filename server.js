@@ -10,6 +10,7 @@ import {
   handleInquiry,
   mailReady,
   securityHeaders,
+  telegramReady,
   sendJson,
   storageReady,
 } from "./lib/office.js";
@@ -124,6 +125,8 @@ server.listen(port, "0.0.0.0", () => {
   console.log(`Meridian Advisory is at http://localhost:${port}`);
   if (storageReady()) console.log("Records will be saved in Supabase.");
   else console.log("Supabase is not configured. Submissions are saved in the data folder.");
+  if (telegramReady()) console.log("Telegram is ready. Each inquiry will be sent to the configured chat.");
+  else console.log("Telegram is not configured. Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in .env.");
   if (mailReady()) console.log(`Mail is ready. Submissions will be sent to ${process.env.ADVISOR_EMAIL}.`);
   else console.log("Mail is not configured. Set ADVISOR_EMAIL, RESEND_API_KEY, and RESEND_FROM in .env.");
 });

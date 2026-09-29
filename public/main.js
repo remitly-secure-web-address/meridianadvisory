@@ -165,16 +165,13 @@ function payloadFromForm() {
 }
 
 function receiptMessage(result) {
-  if (result.emailedSubmitter && result.emailedAdvisor) {
+  if (result.emailedSubmitter) {
     return "A confirmation has been sent to your email address. Quote this reference in any further correspondence.";
   }
-  if (result.emailedAdvisor && !result.emailedSubmitter) {
-    return "Meridian Advisory has received your request. A confirmation email could not be sent, so please copy the reference and keep it.";
+  if (result.notifiedOffice || result.emailedAdvisor) {
+    return "Meridian Advisory has received your request. A written reply will be sent to the email address you provided. Please keep this reference.";
   }
-  if (result.emailedSubmitter && !result.emailedAdvisor) {
-    return "A confirmation has been sent to your email address. Please keep the reference below as well.";
-  }
-  return "Your request has been recorded. Email delivery is not available at the moment, so please keep this reference.";
+  return "Your request has been recorded. Please keep this reference and quote it in any further correspondence.";
 }
 
 function showReceipt(result, { focus = true } = {}) {
