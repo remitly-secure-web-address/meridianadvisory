@@ -1,0 +1,66 @@
+[
+  {
+    "niche": "Apparel",
+    "products": ["Dresses", "Tops", "Outerwear", "Activewear", "Denim", "Tailoring", "Underwear", "Other"]
+  },
+  {
+    "niche": "Beauty",
+    "products": ["Skincare", "Makeup", "Hair care", "Fragrance", "Nail products", "Beauty tools", "Other"]
+  },
+  {
+    "niche": "Health and wellness",
+    "products": ["Supplements", "Vitamins", "Fitness equipment", "Personal care", "Wellness devices", "Other"]
+  },
+  {
+    "niche": "Home and living",
+    "products": ["Furniture", "Bedding", "Lighting", "Home decor", "Kitchenware", "Storage", "Other"]
+  },
+  {
+    "niche": "Jewelry and accessories",
+    "products": ["Fine jewelry", "Fashion jewelry", "Watches", "Bags", "Sunglasses", "Other"]
+  },
+  {
+    "niche": "Footwear",
+    "products": ["Sneakers", "Boots", "Sandals", "Formal shoes", "Athletic shoes", "Other"]
+  },
+  {
+    "niche": "Electronics",
+    "products": ["Phone accessories", "Audio", "Computer accessories", "Cameras", "Smart devices", "Other"]
+  },
+  {
+    "niche": "Sports and fitness",
+    "products": ["Training gear", "Team sports", "Cycling", "Running", "Outdoor sport", "Other"]
+  },
+  {
+    "niche": "Pet supplies",
+    "products": ["Dog supplies", "Cat supplies", "Pet food", "Beds and crates", "Grooming", "Other"]
+  },
+  {
+    "niche": "Baby and children",
+    "products": ["Clothing", "Nursery", "Toys", "Feeding", "School supplies", "Other"]
+  },
+  {
+    "niche": "Food and beverage",
+    "products": ["Coffee and tea", "Snacks", "Pantry goods", "Specialty foods", "Drinks", "Other"]
+  },
+  {
+    "niche": "Art and stationery",
+    "products": ["Prints", "Original art", "Cards", "Stationery", "Craft supplies", "Other"]
+  },
+  {
+    "niche": "Outdoor and garden",
+    "products": ["Plants", "Garden tools", "Outdoor furniture", "Grills", "Outdoor lighting", "Other"]
+  },
+  {
+    "niche": "Automotive",
+    "products": ["Car accessories", "Interior fittings", "Tools", "Care products", "Motorcycle accessories", "Other"]
+  },
+  {
+    "niche": "Digital products",
+    "products": ["Courses", "Templates", "Publications", "Software", "Memberships", "Other"]
+  },
+  {
+    "niche": "Other",
+    "products": ["A single product", "A product collection", "A service offered through the store", "Other"]
+  }
+]
